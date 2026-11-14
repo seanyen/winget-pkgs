@@ -1,9 +1,11 @@
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.1.0.schema.json
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-5-0.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
 PackageIdentifier: Mozilla.Firefox
 PackageVersion: 101.0.1
 Platform:
 - Windows.Desktop
-MinimumOSVersion: 10.0.0.0
+MinimumOSVersion: 10.0.17763.0
 InstallModes:
 - silentWithProgress
 UpgradeBehavior: install
@@ -24,13 +26,11 @@ Installers:
   Scope: machine
   InstallerUrl: https://download-installer.cdn.mozilla.net/pub/firefox/releases/101.0.1/win64/en-US/Firefox%20Setup%20101.0.1.msi
   InstallerSha256: D75624404364D4D24C338F0955F71A36328103178CAFD1889B9E80F9473B0371
+  ProductCode: '{1294A4C5-9977-480F-9497-C0EA1E630130}'
   AppsAndFeaturesEntries:
   - DisplayName: Mozilla Firefox (x64 en-US)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x64 en-US)
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
 - InstallerLocale: en-US
   Architecture: x64
   InstallerType: exe
@@ -44,19 +44,14 @@ Installers:
   - DisplayName: Mozilla Firefox (x64 en-US)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x64 en-US)
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
 - InstallerLocale: en-US
   Architecture: x86
   InstallerType: wix
   Scope: machine
   InstallerUrl: https://download-installer.cdn.mozilla.net/pub/firefox/releases/101.0.1/win32/en-US/Firefox%20Setup%20101.0.1.msi
   InstallerSha256: 8CECA02E60D52AB90A237A22375713936A3EC61EC463B2ABF63ED00238A0BE4F
+  ProductCode: '{1294A4C5-9977-480F-9497-C0EA1E630130}'
   AppsAndFeaturesEntries:
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
   - DisplayName: Mozilla Firefox (x86 en-US)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x86 en-US)
@@ -70,9 +65,6 @@ Installers:
     Silent: /S
     SilentWithProgress: /S
   AppsAndFeaturesEntries:
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
   - DisplayName: Mozilla Firefox (x86 en-US)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x86 en-US)
@@ -91,13 +83,11 @@ Installers:
   Scope: machine
   InstallerUrl: https://download-installer.cdn.mozilla.net/pub/firefox/releases/101.0.1/win64/zh-CN/Firefox%20Setup%20101.0.1.msi
   InstallerSha256: B6F0E2B485EE4F7249BAF170FF5F7E82A4900F61B9511A3E5719CE29BDC08136
+  ProductCode: '{1294A4C5-9977-480F-9497-C0EA1E630130}'
   AppsAndFeaturesEntries:
   - DisplayName: Mozilla Firefox (x64 zh-CN)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x64 zh-CN)
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
 - InstallerLocale: zh-CN
   Architecture: x64
   InstallerType: exe
@@ -111,19 +101,14 @@ Installers:
   - DisplayName: Mozilla Firefox (x64 zh-CN)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x64 zh-CN)
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
 - InstallerLocale: zh-CN
   Architecture: x86
   InstallerType: wix
   Scope: machine
   InstallerUrl: https://download-installer.cdn.mozilla.net/pub/firefox/releases/101.0.1/win32/zh-CN/Firefox%20Setup%20101.0.1.msi
   InstallerSha256: DE88A6AB6219913EEB7E25AC60F4DBD0EF334A464DE2B35F7D9B3175A1069E3F
+  ProductCode: '{1294A4C5-9977-480F-9497-C0EA1E630130}'
   AppsAndFeaturesEntries:
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
   - DisplayName: Mozilla Firefox (x86 zh-CN)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x86 zh-CN)
@@ -137,9 +122,6 @@ Installers:
     Silent: /S
     SilentWithProgress: /S
   AppsAndFeaturesEntries:
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
   - DisplayName: Mozilla Firefox (x86 zh-CN)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x86 zh-CN)
@@ -163,9 +145,6 @@ Installers:
   - DisplayName: Mozilla Firefox (x64 en-GB)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x64 en-GB)
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
 - InstallerLocale: en-GB
   Architecture: x64
   InstallerType: exe
@@ -179,19 +158,14 @@ Installers:
   - DisplayName: Mozilla Firefox (x64 en-GB)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x64 en-GB)
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
 - InstallerLocale: en-GB
   Architecture: x86
   InstallerType: wix
   Scope: machine
   InstallerUrl: https://download-installer.cdn.mozilla.net/pub/firefox/releases/101.0.1/win32/en-GB/Firefox%20Setup%20101.0.1.msi
   InstallerSha256: 56564E1AD5C82C3E6B775E88B8B5B09C38360DFBBEE3AB8E41F1C87870344A85
+  ProductCode: '{1294A4C5-9977-480F-9497-C0EA1E630130}'
   AppsAndFeaturesEntries:
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
   - DisplayName: Mozilla Firefox (x86 en-GB)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x86 en-GB)
@@ -205,9 +179,6 @@ Installers:
     Silent: /S
     SilentWithProgress: /S
   AppsAndFeaturesEntries:
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
   - DisplayName: Mozilla Firefox (x86 en-GB)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x86 en-GB)
@@ -226,13 +197,11 @@ Installers:
   Scope: machine
   InstallerUrl: https://download-installer.cdn.mozilla.net/pub/firefox/releases/101.0.1/win64/ru/Firefox%20Setup%20101.0.1.msi
   InstallerSha256: DBC0143208ED33DB54F2FF2C7C9681CBDB530CADA97F91F677C97F371B772A94
+  ProductCode: '{1294A4C5-9977-480F-9497-C0EA1E630130}'
   AppsAndFeaturesEntries:
   - DisplayName: Mozilla Firefox (x64 ru)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x64 ru)
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
 - InstallerLocale: ru-RU
   Architecture: x64
   InstallerType: exe
@@ -246,19 +215,14 @@ Installers:
   - DisplayName: Mozilla Firefox (x64 ru)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x64 ru)
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
 - InstallerLocale: ru-RU
   Architecture: x86
   InstallerType: wix
   Scope: machine
   InstallerUrl: https://download-installer.cdn.mozilla.net/pub/firefox/releases/101.0.1/win32/ru/Firefox%20Setup%20101.0.1.msi
   InstallerSha256: AFB89FEFD0BA4AEF25FE0348188CEEC2FB2301087EAAC8750C12E979156E02A6
+  ProductCode: '{1294A4C5-9977-480F-9497-C0EA1E630130}'
   AppsAndFeaturesEntries:
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
   - DisplayName: Mozilla Firefox (x86 ru)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x86 ru)
@@ -272,9 +236,6 @@ Installers:
     Silent: /S
     SilentWithProgress: /S
   AppsAndFeaturesEntries:
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
   - DisplayName: Mozilla Firefox (x86 ru)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x86 ru)
@@ -298,9 +259,6 @@ Installers:
   - DisplayName: Mozilla Firefox (x64 de)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x64 de)
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
 - InstallerLocale: de-DE
   Architecture: x64
   InstallerType: exe
@@ -314,9 +272,6 @@ Installers:
   - DisplayName: Mozilla Firefox (x64 de)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x64 de)
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
 - InstallerLocale: de-DE
   Architecture: x86
   InstallerType: wix
@@ -325,9 +280,6 @@ Installers:
   InstallerSha256: 5BA03FF163976A326BB0F032CA72AEC3129D821967F089D48E211AAC32A51322
   ProductCode: '{1294A4C5-9977-480F-9497-C0EA1E630130}'
   AppsAndFeaturesEntries:
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
   - DisplayName: Mozilla Firefox (x86 de)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x86 de)
@@ -341,9 +293,6 @@ Installers:
     Silent: /S
     SilentWithProgress: /S
   AppsAndFeaturesEntries:
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
   - DisplayName: Mozilla Firefox (x86 de)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x86 de)
@@ -367,9 +316,6 @@ Installers:
   - DisplayName: Mozilla Firefox (x64 el)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x64 el)
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
 - InstallerLocale: el-GR
   Architecture: x64
   InstallerType: exe
@@ -383,9 +329,6 @@ Installers:
   - DisplayName: Mozilla Firefox (x64 el)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x64 el)
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
 - InstallerLocale: el-GR
   Architecture: x86
   InstallerType: wix
@@ -394,9 +337,6 @@ Installers:
   InstallerSha256: 4146B5A9A509C80DC3F89A88A71877E66460127EF5EBC79E8ABC87CEC0A3B867
   ProductCode: '{1294A4C5-9977-480F-9497-C0EA1E630130}'
   AppsAndFeaturesEntries:
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
   - DisplayName: Mozilla Firefox (x86 el)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x86 el)
@@ -410,9 +350,6 @@ Installers:
     Silent: /S
     SilentWithProgress: /S
   AppsAndFeaturesEntries:
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
   - DisplayName: Mozilla Firefox (x86 el)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x86 el)
@@ -436,9 +373,6 @@ Installers:
   - DisplayName: Mozilla Firefox (x64 ja)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x64 ja)
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
 - InstallerLocale: ja-JP
   Architecture: x64
   InstallerType: exe
@@ -452,9 +386,6 @@ Installers:
   - DisplayName: Mozilla Firefox (x64 ja)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x64 ja)
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
 - InstallerLocale: ja-JP
   Architecture: x86
   InstallerType: wix
@@ -463,9 +394,6 @@ Installers:
   InstallerSha256: 84268EA2DBC0E1FDC6D71AE02FEEF23BE76AB470E34D138FE32EA84E61F443CA
   ProductCode: '{1294A4C5-9977-480F-9497-C0EA1E630130}'
   AppsAndFeaturesEntries:
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
   - DisplayName: Mozilla Firefox (x86 ja)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x86 ja)
@@ -479,9 +407,6 @@ Installers:
     Silent: /S
     SilentWithProgress: /S
   AppsAndFeaturesEntries:
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
   - DisplayName: Mozilla Firefox (x86 ja)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x86 ja)
@@ -505,9 +430,6 @@ Installers:
   - DisplayName: Mozilla Firefox (x64 es-ES)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x64 es-ES)
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
 - InstallerLocale: es-ES
   Architecture: x64
   InstallerType: exe
@@ -521,9 +443,6 @@ Installers:
   - DisplayName: Mozilla Firefox (x64 es-ES)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x64 es-ES)
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
 - InstallerLocale: es-ES
   Architecture: x86
   InstallerType: wix
@@ -532,9 +451,6 @@ Installers:
   InstallerSha256: 5EF7DE460BDDFD5A87125110B14612A6191B6A223D76DAB8C4A04FB83EE074AD
   ProductCode: '{1294A4C5-9977-480F-9497-C0EA1E630130}'
   AppsAndFeaturesEntries:
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
   - DisplayName: Mozilla Firefox (x86 es-ES)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x86 es-ES)
@@ -548,9 +464,6 @@ Installers:
     Silent: /S
     SilentWithProgress: /S
   AppsAndFeaturesEntries:
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
   - DisplayName: Mozilla Firefox (x86 es-ES)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x86 es-ES)
@@ -574,9 +487,6 @@ Installers:
   - DisplayName: Mozilla Firefox (x64 es-MX)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x64 es-MX)
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
 - InstallerLocale: es-MX
   Architecture: x64
   InstallerType: exe
@@ -590,9 +500,6 @@ Installers:
   - DisplayName: Mozilla Firefox (x64 es-MX)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x64 es-MX)
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
 - InstallerLocale: es-MX
   Architecture: x86
   InstallerType: wix
@@ -601,9 +508,6 @@ Installers:
   InstallerSha256: AD34D5033F5973839E7E69AC057333C82842650C9A9C293BAD4F4F7111C48ADF
   ProductCode: '{1294A4C5-9977-480F-9497-C0EA1E630130}'
   AppsAndFeaturesEntries:
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
   - DisplayName: Mozilla Firefox (x86 es-MX)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x86 es-MX)
@@ -617,9 +521,6 @@ Installers:
     Silent: /S
     SilentWithProgress: /S
   AppsAndFeaturesEntries:
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
   - DisplayName: Mozilla Firefox (x86 es-MX)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x86 es-MX)
@@ -643,9 +544,6 @@ Installers:
   - DisplayName: Mozilla Firefox (x64 nb-NO)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x64 nb-NO)
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
 - InstallerLocale: nb-NO
   Architecture: x64
   InstallerType: exe
@@ -659,9 +557,6 @@ Installers:
   - DisplayName: Mozilla Firefox (x64 nb-NO)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x64 nb-NO)
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
 - InstallerLocale: nb-NO
   Architecture: x86
   InstallerType: wix
@@ -670,9 +565,6 @@ Installers:
   InstallerSha256: 63077B4D208B91A202940A0521E95A4002AA856B308D25D34A271CE12245241F
   ProductCode: '{1294A4C5-9977-480F-9497-C0EA1E630130}'
   AppsAndFeaturesEntries:
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
   - DisplayName: Mozilla Firefox (x86 nb-NO)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x86 nb-NO)
@@ -686,9 +578,6 @@ Installers:
     Silent: /S
     SilentWithProgress: /S
   AppsAndFeaturesEntries:
-  - DisplayName: Mozilla Maintenance Service
-    Publisher: Mozilla
-    ProductCode: MozillaMaintenanceService
   - DisplayName: Mozilla Firefox (x86 nb-NO)
     Publisher: Mozilla
     ProductCode: Mozilla Firefox 101.0.1 (x86 nb-NO)
@@ -705,14 +594,13 @@ Installers:
   InstallerType: msix
   InstallerUrl: https://download-installer.cdn.mozilla.net/pub/firefox/releases/101.0.1/win64/multi/Firefox%20Setup%20101.0.1.msix
   InstallerSha256: E5277F9E71E3D86E16D51621EF03255B05C08935CEA89FA635005C686BBCE789
-  SignatureSha256: b368de1e5c622b89a5dce06a3f593c3297a48793bd38c9f309bece03585fbabc
+  SignatureSha256: B368DE1E5C622B89A5DCE06A3F593C3297A48793BD38C9F309BECE03585FBABC
   PackageFamilyName: Mozilla.MozillaFirefox_gmpnhwe7bv608
 - Architecture: x86
   InstallerType: msix
   InstallerUrl: https://download-installer.cdn.mozilla.net/pub/firefox/releases/101.0.1/win32/multi/Firefox%20Setup%20101.0.1.msix
   InstallerSha256: EB253B2E5EA030BA689BB137786DEED4C7F66C2508E270C3AB9716F273730F88
-  SignatureSha256: deb8f1678dd018494830e87a8775a16212bdbe28d91c41d5de24be9a196cd59e
+  SignatureSha256: DEB8F1678DD018494830E87A8775A16212BDBE28D91C41D5DE24BE9A196CD59E
   PackageFamilyName: Mozilla.MozillaFirefox_gmpnhwe7bv608
 ManifestType: installer
-ManifestVersion: 1.1.0
-
+ManifestVersion: 1.9.0
